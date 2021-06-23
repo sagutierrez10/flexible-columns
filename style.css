@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+}
+.row {
+    gap:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.col, .col-2, .col-3 {
+    font-size: large;
+    color:azure;
+    text-align: center;
+    width:300px;
+    background-color: lightseagreen;
+    flex:1;
+    padding:20px;
+
+}
+.col-2 {
+    flex:2;
+    margin-top: 10px;
+
+}
+.col-3{
+    flex:3;
+
+}
